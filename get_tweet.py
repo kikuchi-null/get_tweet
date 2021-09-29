@@ -93,7 +93,7 @@ class GetTweet:
         session.close()
 
         return timelines, id
-        
+    
     def get_rate_limit_status(self):
         session = self.get_session()
         limit = 1
